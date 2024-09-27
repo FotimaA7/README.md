@@ -3,30 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Typography</title>
+    <title>Typography with Media Queries and Social Media Icons</title>
     <style>
         body {
-            font-size: 16px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
             line-height: 1.5;
         }
 
-        @media (max-width: 768px) {
-            body {
-                font-size: 14px;
-                line-height: 1.4;
+        p {
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        /* Media queries to adjust typography */
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 28px;
+                line-height: 1.6;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 1.8;
             }
         }
 
-        @media (max-width: 480px) {
-            body {
-                font-size: 12px;
-                line-height: 1.3;
+        @media (min-width: 1024px) {
+            h1 {
+                font-size: 32px;
+                line-height: 1.7;
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 2;
             }
         }
+
+        /* Social media links styling */
+        .social-media {
+            margin-top: 20px;
+        }
+
+        .social-media a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .social-media a:hover {
+            color: #007bff;
+        }
+
+        .social-media i {
+            margin-right: 8px;
+        }
     </style>
+    <!-- Link to FontAwesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-<p>This is a paragraph with responsive typography.</p>
+
+<h1>Responsive Typography with Media Queries</h1>
+<p>
+    This text will adjust its font size and line height based on the screen size. Resize the browser window to see the changes.
+</p>
+
+<!-- Social media icons and links -->
+<div class="social-media">
+    <a href="https://facebook.com" target="_blank">
+        <i class="fab fa-facebook"></i>Facebook
+    </a>
+    <a href="https://twitter.com" target="_blank">
+        <i class="fab fa-twitter"></i>Twitter
+    </a>
+    <a href="https://instagram.com" target="_blank">
+        <i class="fab fa-instagram"></i>Instagram
+    </a>
+</div>
+
+<a href="./exercise20.html">Next Exercise</a>
+
 </body>
-<a href="./exercise20.html">Next Exercise </a>
 </html>
