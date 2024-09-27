@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Popup</title>
+    <style>
+        #myModal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            padding-top: 60px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        #myModalContent {
+            background-color: white;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid black;
+            width: 80%;
+        }
+
+        .close {
+            float: right;
+            font-size: 28px;
+        }
+
+        .close:hover {
+            color: red;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Modal Popup</h1>
+<button onclick="document.getElementById('myModal').style.display = 'block'">Open Modal</button>
+
+<div id="myModal">
+    <div id="myModalContent">
+        <span class="close" onclick="document.getElementById('myModal').style.display = 'none'">&times;</span>
+        <p>This is a modal popup.</p>
+    </div>
+</div>
+
+</body>
+<a href="./exercise19.html">Next Exercise </a>
+</html>
