@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Overlay</title>
+    <style>
+        .container {
+            position: relative;
+            width: 300px;
+        }
+
+        .image {
+            width: 100%;
+            display: block;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: rgba(0,0,0,0.5);
+        }
+
+        .container:hover .overlay {
+            opacity: 1;
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <img src="https://cs6.pikabu.ru/post_img/big/2015/04/26/6/1430037626_1786129976.jpg" alt="Image" class="image">
+    <div class="overlay">
+        <div class="text">Beautiful Nature</div>
+    </div>
+</div>
+</body>
+<a href="./exercise14.html">Next Exercise </a>
+</html>

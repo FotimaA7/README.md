@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Image Gallery</title>
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    @media (max-width: 768px) {
+      .gallery {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="gallery">
+  <img src="https://i.pinimg.com/originals/65/ed/fd/65edfdb2f3aea4de0f62072678ebb232.jpg" alt="Image 1">
+  <img src="https://avatars.mds.yandex.net/i?id=b14e90e2816ace900668428f38617426_l-7909006-images-thumbs&n=13" alt="Image 2">
+  <img src="https://smallgroupnetwork.com/wp-content/uploads/2017/05/amazing-animal-beautiful-beautifull.jpg" alt="Image 3">
+</div>
+</body>
+<a href="./exercise9.html">Next Exercise </a>
+</html>

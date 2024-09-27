@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar</title>
+    <style>
+        .progress-bar {
+            width: 100%;
+            background-color: #f3f3f3;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .progress {
+            height: 20px;
+            background-color: #3498db;
+            width: 0%;
+            transition: width 2s;
+        }
+
+        .progress.animate {
+            width: 75%;
+        }
+    </style>
+</head>
+<body>
+<div class="progress-bar">
+    <div class="progress animate"></div>
+</div>
+</body>
+<a href="./exercise17.html">Next Exercise </a>
+</html>

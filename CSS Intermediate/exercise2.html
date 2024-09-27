@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Styled Form</title>
+  <style>
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    input[type="text"], input[type="email"], input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+      border-color: #5b9bd5;
+    }
+
+    input[type="submit"] {
+      background-color: #5b9bd5;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #4a89ca;
+    }
+  </style>
+</head>
+<body>
+<form>
+  <input type="text" placeholder="Name">
+  <input type="email" placeholder="Email">
+  <input type="password" placeholder="Password">
+  <input type="submit" value="Submit">
+</form>
+</body>
+<a href="./exercise3.html">Next Exercise </a>
+</html>
