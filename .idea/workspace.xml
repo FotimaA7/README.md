@@ -5,19 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e01755b-8087-4b96-b9df-36a2bbab3430" name="Changes" comment="updated again">
-      <change afterPath="$PROJECT_DIR$/Exercises Java Intermediate/exercise10.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises Java Intermediate/exercise11.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises Java Intermediate/exercise12.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises Java Intermediate/exercise13.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises Java Intermediate/exercise14.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises Java Intermediate/exercise15.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises Java Intermediate/exercise3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises Java Intermediate/exercise4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises Java Intermediate/exercise5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises Java Intermediate/exercise6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises Java Intermediate/exercise7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises Java Intermediate/exercise8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercises Java Intermediate/exercise9.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercises Java Intermediate/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises Java Intermediate/index.html" afterDir="false" />
     </list>
@@ -83,7 +70,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -161,7 +148,7 @@
       <workItem from="1727446998940" duration="384000" />
       <workItem from="1727447396291" duration="1560000" />
       <workItem from="1728963278162" duration="1108000" />
-      <workItem from="1729423767001" duration="5318000" />
+      <workItem from="1729423767001" duration="6187000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <option name="closed" value="true" />
@@ -299,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729429499397</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="updated again">
+      <option name="closed" value="true" />
+      <created>1729430657228</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1729430657228</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
