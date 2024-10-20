@@ -1,8 +1,9 @@
-function checkEvenOdd(num) {
-    let result = num % 2 === 0 ? "Even" : "Odd";
-    console.log("Number is: " + result);
-    document.getElementById("output").innerHTML = "Number is: " + result;
+function calculate() {
+    const num = parseInt(document.getElementById('inputNum').value);
+    const result = num % 2 === 0 ? "Even" : "Odd";
+    document.getElementById('output').innerText = `The number is: ${result}`;
 }
 
-// Example usage:
-checkEvenOdd(7);
+document.getElementById('inputs').innerHTML = `
+    <input type="number" id="inputNum" placeholder="Enter a number" />
+`;

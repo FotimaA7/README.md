@@ -1,5 +1,9 @@
-function getUniqueValues() {
-    const array = [1, 2, 2, 3, 4, 4, 5];
-    const uniqueValues = [...new Set(array)];
-    console.log("Unique Values:", uniqueValues);
+function calculate() {
+    const numbers = document.getElementById('inputUniqueArray').value.split(',').map(Number);
+    const uniqueValues = [...new Set(numbers)];
+    document.getElementById('output').innerText = `Unique values: ${uniqueValues.join(', ')}`;
 }
+
+document.getElementById('inputs').innerHTML = `
+    <input type="text" id="inputUniqueArray" placeholder="Enter numbers separated by commas" />
+`;

@@ -1,5 +1,10 @@
-function countVowels(s) {
-    const count = (s.match(/[aeiou]/gi) || []).length;
-    document.getElementById("output").innerText = `Number of vowels in "${s}" is ${count}`;
+function calculate() {
+    const str = document.getElementById('inputVowels').value;
+    const vowels = str.match(/[aeiou]/gi);
+    const count = vowels ? vowels.length : 0;
+    document.getElementById('output').innerText = `Number of vowels: ${count}`;
 }
-countVowels("hello world");
+
+document.getElementById('inputs').innerHTML = `
+    <input type="text" id="inputVowels" placeholder="Enter a string" />
+`;

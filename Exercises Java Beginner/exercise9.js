@@ -1,16 +1,18 @@
-function fizzBuzz() {
-    const result = [];
+function calculate() {
+    let result = '';
     for (let i = 1; i <= 100; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
-            result.push('FizzBuzz');
+            result += 'FizzBuzz, ';
         } else if (i % 3 === 0) {
-            result.push('Fizz');
+            result += 'Fizz, ';
         } else if (i % 5 === 0) {
-            result.push('Buzz');
+            result += 'Buzz, ';
         } else {
-            result.push(i);
+            result += `${i}, `;
         }
     }
-    document.getElementById("output").innerText = result.join(', ');
+    document.getElementById('output').innerText = result.slice(0, -2);
 }
-fizzBuzz();
+
+document.getElementById('inputs').innerHTML = ''; // No input required for FizzBuzz
+calculate();

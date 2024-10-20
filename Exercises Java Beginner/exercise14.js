@@ -1,5 +1,9 @@
-function removeDuplicates(arr) {
-    const uniqueArray = [...new Set(arr)];
-    document.getElementById("output").innerText = `Array without duplicates: ${uniqueArray}`;
+function calculate() {
+    const numbers = document.getElementById('inputDuplicates').value.split(',').map(Number);
+    const uniqueNumbers = [...new Set(numbers)];
+    document.getElementById('output').innerText = `Unique numbers: ${uniqueNumbers.join(', ')}`;
 }
-removeDuplicates([1, 2, 2, 3, 4, 4, 5]);
+
+document.getElementById('inputs').innerHTML = `
+    <input type="text" id="inputDuplicates" placeholder="Enter numbers separated by commas" />
+`;

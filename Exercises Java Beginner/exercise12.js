@@ -1,5 +1,11 @@
-function generateRandomNumber(start, end) {
-    const randomNumber = Math.floor(Math.random() * (end - start + 1)) + start;
-    document.getElementById("output").innerText = `Random number between ${start} and ${end} is ${randomNumber}`;
+function calculate() {
+    const min = parseInt(document.getElementById('inputMin').value);
+    const max = parseInt(document.getElementById('inputMax').value);
+    const randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
+    document.getElementById('output').innerText = `Random number: ${randomNum}`;
 }
-generateRandomNumber(1, 100);
+
+document.getElementById('inputs').innerHTML = `
+    <input type="number" id="inputMin" placeholder="Enter minimum value" />
+    <input type="number" id="inputMax" placeholder="Enter maximum value" />
+`;

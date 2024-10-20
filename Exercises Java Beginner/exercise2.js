@@ -1,8 +1,9 @@
-function reverseString(str) {
-    let reversed = str.split('').reverse().join('');
-    console.log("Reversed: " + reversed);
-    document.getElementById("output").innerHTML = "Reversed: " + reversed;
+function calculate() {
+    const str = document.getElementById('inputStr').value;
+    const reversed = str.split('').reverse().join('');
+    document.getElementById('output').innerText = `Reversed: ${reversed}`;
 }
 
-
-reverseString("hello");
+document.getElementById('inputs').innerHTML = `
+    <input type="text" id="inputStr" placeholder="Enter a string" />
+`;

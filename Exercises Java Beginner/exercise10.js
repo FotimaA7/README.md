@@ -1,21 +1,29 @@
-function simpleCalculator(a, b, operation) {
+function calculate() {
+    const num1 = parseFloat(document.getElementById('inputCalc1').value);
+    const operator = document.getElementById('inputCalcOperator').value;
+    const num2 = parseFloat(document.getElementById('inputCalc2').value);
     let result;
-    switch (operation) {
-        case 'add':
-            result = a + b;
+    switch (operator) {
+        case '+':
+            result = num1 + num2;
             break;
-        case 'subtract':
-            result = a - b;
+        case '-':
+            result = num1 - num2;
             break;
-        case 'multiply':
-            result = a * b;
+        case '*':
+            result = num1 * num2;
             break;
-        case 'divide':
-            result = b !== 0 ? a / b : 'Cannot divide by zero';
+        case '/':
+            result = num1 / num2;
             break;
         default:
-            result = 'Invalid operation';
+            result = 'Invalid operator';
     }
-    document.getElementById("output").innerText = `Result: ${result}`;
+    document.getElementById('output').innerText = `Result: ${result}`;
 }
-simpleCalculator(10, 5, 'add');
+
+document.getElementById('inputs').innerHTML = `
+    <input type="number" id="inputCalc1" placeholder="Enter first number" />
+    <input type="text" id="inputCalcOperator" placeholder="Enter operator (+, -, *, /)" />
+    <input type="number" id="inputCalc2" placeholder="Enter second number" />
+`;

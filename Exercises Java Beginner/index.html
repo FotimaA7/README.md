@@ -4,50 +4,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JavaScript Exercises</title>
+  <style>
+    .exercise {
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
 <body>
 <h1 id="exercise-title">Exercise 1: Sum of Two Numbers</h1>
 
-<!-- This is where the result of the current exercise will be displayed -->
+<div class="exercise">
+  <div id="inputs"></div>
+  <button id="calculate-btn" onclick="calculate()">Calculate</button>
+</div>
+
 <div id="output">Result will appear here</div>
 
-<!-- Buttons to navigate between exercises -->
 <div class="navigation">
   <button id="prev-btn" onclick="previousExercise()" disabled>Previous</button>
   <button id="next-btn" onclick="nextExercise()">Next</button>
 </div>
 
-<!-- The script for dynamically loading JavaScript files -->
 <script>
   let currentExercise = 1;
   const totalExercises = 15;
 
-  // Function to dynamically load the correct JavaScript file
   function loadExercise(exerciseNumber) {
-    // Update the exercise title
     document.getElementById('exercise-title').innerText = `Exercise ${exerciseNumber}: ` + getExerciseTitle(exerciseNumber);
-
-    // Clear the output
+    document.getElementById('inputs').innerHTML = '';
     document.getElementById('output').innerText = "Result will appear here";
-
-    // Remove any previously loaded script
     const oldScript = document.getElementById('exercise-script');
     if (oldScript) {
       oldScript.remove();
     }
-
-    // Create and load the new script
     const script = document.createElement('script');
     script.src = `exercise${exerciseNumber}.js`;
     script.id = 'exercise-script';
     document.body.appendChild(script);
-
-    // Enable/disable buttons
     document.getElementById('prev-btn').disabled = (exerciseNumber === 1);
     document.getElementById('next-btn').disabled = (exerciseNumber === totalExercises);
   }
 
-  // Function to handle the "Next" button click
   function nextExercise() {
     if (currentExercise < totalExercises) {
       currentExercise++;
@@ -55,7 +52,6 @@
     }
   }
 
-  // Function to handle the "Previous" button click
   function previousExercise() {
     if (currentExercise > 1) {
       currentExercise--;
@@ -63,7 +59,6 @@
     }
   }
 
-  // Get the title for each exercise
   function getExerciseTitle(exerciseNumber) {
     const titles = [
       "Sum of Two Numbers",
@@ -85,7 +80,6 @@
     return titles[exerciseNumber - 1];
   }
 
-  // Initially load the first exercise
   loadExercise(currentExercise);
 </script>
 </body>

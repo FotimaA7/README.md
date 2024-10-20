@@ -1,6 +1,11 @@
-function checkSubstring() {
-    const mainStr = document.getElementById('mainStr').value;
-    const subStr = document.getElementById('subStr').value;
-    const isSubstring = mainStr.includes(subStr);
-    alert(`Substring is ${isSubstring ? 'present' : 'not present'}`);
+function calculate() {
+    const str = document.getElementById('inputMainStr').value;
+    const substring = document.getElementById('inputSubstring').value;
+    const isPresent = str.includes(substring);
+    document.getElementById('output').innerText = isPresent ? "Substring is present." : "Substring is not present.";
 }
+
+document.getElementById('inputs').innerHTML = `
+    <input type="text" id="inputMainStr" placeholder="Enter main string" />
+    <input type="text" id="inputSubstring" placeholder="Enter substring" />
+`;

@@ -1,5 +1,7 @@
-function printCurrentDateTime() {
-    const now = new Date().toLocaleString();
-    document.getElementById("output").innerText = `Current date and time: ${now}`;
+function calculate() {
+    const now = new Date();
+    document.getElementById('output').innerText = `Current date and time: ${now.toLocaleString()}`;
 }
-printCurrentDateTime();
+
+document.getElementById('inputs').innerHTML = ''; // No input required for Date and Time
+calculate();

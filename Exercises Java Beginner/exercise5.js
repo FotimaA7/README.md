@@ -1,7 +1,9 @@
-function findLargestNumber(arr) {
-    const largest = Math.max(...arr);
-    document.getElementById("output").innerText = `The largest number is ${largest}`;
+function calculate() {
+    const numbers = document.getElementById('inputNumbers').value.split(',').map(Number);
+    const largest = Math.max(...numbers);
+    document.getElementById('output').innerText = `Largest number: ${largest}`;
 }
 
-// Example usage
-findLargestNumber([10, 20, 30, 40, 50]);
+document.getElementById('inputs').innerHTML = `
+    <input type="text" id="inputNumbers" placeholder="Enter numbers separated by commas" />
+`;
