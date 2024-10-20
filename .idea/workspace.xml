@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e01755b-8087-4b96-b9df-36a2bbab3430" name="Changes" comment="updated again" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;FotimaA7&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FotimaA7/README.md.git&quot;,
+    &quot;accountId&quot;: &quot;7cdd1bc3-c958-400b-940a-291b241fe0b4&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2mK0QlyjRNYUsAoTRu8mJO4UOYU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.ex-1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.exercise 10.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.exercise 6.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.exercise 7.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.exercise-6.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.exercise2.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.Begginer.level.js.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/fotima.abdulmainova/WebstormProjects/README.md/CSS beginner&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fotima.abdulmainova\WebstormProjects\README.md\CSS beginner" />
+      <recent name="C:\Users\fotima.abdulmainova\WebstormProjects\README.md\html intermediate" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fotima.abdulmainova\WebstormProjects\README.md\JavaScriptExercises" />
+      <recent name="C:\Users\fotima.abdulmainova\WebstormProjects\README.md\html beg" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.Begginer.level.js">
+    <configuration name="exercise 6.html" type="JavascriptDebugType" nameIsGenerated="true" engineId="37cae5b9-e8b2-4949-9172-aafa37fbc09c" uri="http://localhost:63342/README.md/html beg/exercise 6.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Begginer.level.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScriptExercises/Begginer.level.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="README.md" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/html beg" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/html beg/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.Begginer.level.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e01755b-8087-4b96-b9df-36a2bbab3430" name="Changes" comment="" />
+      <created>1726809948838</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726809948838</updated>
+      <workItem from="1726809952127" duration="2086000" />
+      <workItem from="1727349206234" duration="4663000" />
+      <workItem from="1727356756485" duration="647000" />
+      <workItem from="1727361115610" duration="4195000" />
+      <workItem from="1727365378170" duration="8571000" />
+      <workItem from="1727409957812" duration="951000" />
+      <workItem from="1727421359268" duration="2000" />
+      <workItem from="1727421630979" duration="5709000" />
+      <workItem from="1727427711508" duration="752000" />
+      <workItem from="1727429586958" duration="497000" />
+      <workItem from="1727435083673" duration="6272000" />
+      <workItem from="1727446998940" duration="384000" />
+      <workItem from="1727447396291" duration="1560000" />
+      <workItem from="1728963278162" duration="1108000" />
+      <workItem from="1729423767001" duration="3903000" />
+    </task>
+    <task id="LOCAL-00001" summary="updated">
+      <option name="closed" value="true" />
+      <created>1727349370314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727349370314</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated">
+      <option name="closed" value="true" />
+      <created>1727349468697</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727349468697</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated again">
+      <option name="closed" value="true" />
+      <created>1727350290140</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727350290140</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated again">
+      <option name="closed" value="true" />
+      <created>1727356776269</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727356776269</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated again">
+      <option name="closed" value="true" />
+      <created>1727361559636</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727361559636</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated again">
+      <option name="closed" value="true" />
+      <created>1727362918350</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727362918350</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated again">
+      <option name="closed" value="true" />
+      <created>1727364533413</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727364533413</updated>
+    </task>
+    <task id="LOCAL-00008" summary="updated again">
+      <option name="closed" value="true" />
+      <created>1727366081592</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727366081592</updated>
+    </task>
+    <task id="LOCAL-00009" summary="updated again">
+      <option name="closed" value="true" />
+      <created>1727370273037</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727370273037</updated>
+    </task>
+    <task id="LOCAL-00010" summary="updated again">
+      <option name="closed" value="true" />
+      <created>1727426384160</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727426384160</updated>
+    </task>
+    <task id="LOCAL-00011" summary="updated again">
+      <option name="closed" value="true" />
+      <created>1727435364016</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727435364016</updated>
+    </task>
+    <task id="LOCAL-00012" summary="updated again">
+      <option name="closed" value="true" />
+      <created>1727442197059</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727442197059</updated>
+    </task>
+    <task id="LOCAL-00013" summary="updated again">
+      <option name="closed" value="true" />
+      <created>1727442420460</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727442420460</updated>
+    </task>
+    <task id="LOCAL-00014" summary="updated again">
+      <option name="closed" value="true" />
+      <created>1727443672537</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1727443672537</updated>
+    </task>
+    <task id="LOCAL-00015" summary="updated again">
+      <option name="closed" value="true" />
+      <created>1727447218790</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1727447218790</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.py" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated" />
+    <MESSAGE value="updated again" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated again" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Exercises Java Beginner/exercise4.js</url>
+          <line>6</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
